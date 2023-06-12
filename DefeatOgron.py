@@ -8,7 +8,7 @@ print("=== ID: 2 Dagas Dobles: Pega 10, probabilidad de doble golpe ==\n")
 weapon = int(input("Escoge tu arma, Ingresa el ID: "))
 rounds = int(input("Cuantas rondas vas a pelear: "))
 
-confirm=input("Vamos a comenzar el combate, estas seguro de Iniciarlo? S/N\n")
+confirm=input("Vamos a comenzar el combate S/N\n")
 if confirm=="s":
     print("---------------------------> iniciando el combate pactado a "+str(rounds)+" Entre Ogron el Peligroso vs "+player+" !!")
     print("******************************************************************")
