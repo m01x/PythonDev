@@ -1,6 +1,6 @@
 import random
 
-player = input("Bienvenido al simulador de combates, Como te llamas: ")
+player = input("Bienvenido fella warrior, Como te llamas: ")
 print("\n")
 print("Vas a enfrentar a Ogron el terrible!!... escoge tu arma\n")
 print("=== ID: 1 Katana: Pega 30, 1 golpe===\n")
