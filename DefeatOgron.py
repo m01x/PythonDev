@@ -1,4 +1,5 @@
 import random
+import weaponBehaviour as wb
 
 player = input("Bienvenido fella warrior, Como te llamas: ")
 print("\n")
@@ -27,8 +28,8 @@ if confirm=="s":
         if weapon == 1:
             #TODO pasar a funcion el calculo de damagess.
             #Katana, atk 30 1 hit
-            dmgPlayer = random.randint(1,30)
-            dmgOgron = random.randint(1,30)
+            dmgPlayer = wb.katana()
+            dmgOgron = wb.katana()
             anunciador="Le has inflingido "+str(dmgPlayer)+" a Ogron... y Ogron te ha inflingido "+str(dmgOgron)+"."
         else:
             #Dual Dagas, atk 10 , 50% chande double hit
